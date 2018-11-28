@@ -1,0 +1,133 @@
+{ "pemd" : 
+[
+    {
+        "questionid" : 1,
+        "nivel" : "Facil",
+        "pretextual" : "Escolha uma alternativa para a integral:",
+        "problema" : "\\int senx cosx dx",
+        "resposta" : [
+            { 
+                "passoid" : 1,
+                "pretextual" : "",
+                "solucao" : "por substituição",
+                "resposta" : [
+                {
+                    "passoid" : 2,
+                    "pretextual" : "Considere",
+                    "solucao" : "u=senx",
+                    "postextual" : "",
+                    "resposta" : [
+                    {
+                        "passoid" : 3,
+                        "pretextual" : "e observe que",
+                        "solucao" : "\\du=cosx dx",
+                        "postextual" : "",
+                        "resposta" : [
+                            {
+                                "passoid" : 4,
+                                "pretextual" : "Assim,",
+                                "solucao" : "\\int u du",
+                                "postextual" : "",
+                                "resposta" : [
+                                    {
+                                        "passoid" : 5,
+                                        "pretextual" : "",
+                                        "solucao" : "u^2/2 + k",
+                                        "postextual" : "",
+                                        "resposta" : [
+                                            {
+                                                "passoid" : 6,
+                                                "pretextual" : "",
+                                                "solucao" : "sen(x)^2/2 + k, k pertencente aos Reais.",
+                                                "postextual" : "sucesso",
+                                                "resposta" : []
+                                            }]
+                                    }]
+                            }]
+                    }]
+                },
+                {
+                    "passoid" : 2,
+                    "pretextual" : "Considere",
+                    "solucao" : "u=cosx",
+                    "postextual" : "",
+                    "resposta" : [
+                        {
+                            "passoid" : 3,
+                            "pretextual" : "e observe que",
+                            "solucao" : "du=-senx dx",
+                            "postextual" : "",
+                            "resposta" : [
+                                {
+                                    "passoid" : 4,
+                                    "pretextual" : "Assim,",
+                                    "solucao" : "\\int -u du",
+                                    "postextual" : "",
+                                    "resposta" : [
+                                        {
+                                            "passoid" : 5,
+                                            "pretextual" : "",
+                                            "solucao" : "u^2/2 + k",
+                                            "postextual" : "",
+                                            "resposta" : [
+                                                {
+                                                    "passoid" : 6,
+                                                    "pretextual" : "",
+                                                    "solucao" : "-cos(x)^2/2 + k, k pertencente aos Reais.",
+                                                    "postextual" : "sucesso",
+                                                    "resposta" : []
+                                                }]
+                                        }]
+                                }]
+                        }]
+                },
+                {
+                    "passoid" : 2,
+                    "pretextual" : "",
+                    "solucao" : "alternativa errada",
+                    "postextual" : "fracasso",
+                    "resposta" : []
+                }
+            ]
+            }
+        ]},
+    {
+        "questionid" : 2,
+        "nivel" : "Facil",
+        "pretextual" : "Escolha uma alternativa para a integral:",
+        "problema" : "\\int x sen(x^2) dx",
+        "resposta" : [
+            { 
+                "passoid" : 1,
+                "pretextual" : "Considere",
+                "solucao" : "u=x^2",
+                "postextual" : "",
+                "resposta" : [
+                {
+                    "passoid" : 2,
+                    "pretextual" : "e observe que",
+                    "solucao" : "du= 2x dx",
+                    "postextual" : "",
+                    "resposta" : [
+                    {
+                        "passoid" : 3,
+                        "pretextual" : "Assim,",
+                        "solucao" : "\\int sen u du",
+                        "postextual" : "",
+                        "resposta" : []
+                    }
+                    ]
+                }
+                ]
+            },
+            {
+                "passoid" : 2,
+                "pretextual" : "Considere",
+                "solucao" : "u=tgx",
+                "postextual" : "",
+                "resposta" : []
+            }
+        ]
+    }
+]
+}
