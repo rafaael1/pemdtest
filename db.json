@@ -4,7 +4,7 @@
         "questionid" : 1,
         "nivel" : "Facil",
         "pretextual" : "Escolha uma alternativa para a integral:",
-        "problema" : "\\int senx cosx dx",
+        "problema" : "\\int \sin(x) \cos(x) dx",
         "resposta" : [
             { 
                 "passoid" : 1,
@@ -14,13 +14,13 @@
                 {
                     "passoid" : 2,
                     "pretextual" : "Considere",
-                    "solucao" : "u=senx",
+                    "solucao" : "u=\sin(x)",
                     "postextual" : "",
                     "resposta" : [
                     {
                         "passoid" : 3,
                         "pretextual" : "e observe que",
-                        "solucao" : "\\du=cosx dx",
+                        "solucao" : "\\du=\cos(x) dx",
                         "postextual" : "",
                         "resposta" : [
                             {
@@ -95,7 +95,7 @@
         "questionid" : 2,
         "nivel" : "Facil",
         "pretextual" : "Escolha uma alternativa para a integral:",
-        "problema" : "\\int x sen(x^2) dx",
+        "problema" : "\\int x \sin(x^2) dx",
         "resposta" : [
             { 
                 "passoid" : 1,
