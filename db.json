@@ -4,7 +4,7 @@
       "id_question": 1,
       "nivel": "Facil",
       "pretextual": "Escolha uma alternativa para a integral:",
-      "problema": "\\int \\sin(x) \\cos(x) dx",
+      "problema": "\\int \\sin(x) \\cos(x)\, dx",
       "resposta": [
         {
           "id_passo": 1,
@@ -20,7 +20,7 @@
                 {
                   "id_passo": 3,
                   "pretextual": "e observe que",
-                  "solucao": "du = \\cos(x) dx",
+                  "solucao": "du = \\cos(x)\, dx",
                   "postextual": "",
                   "resposta": [
                     {
@@ -41,14 +41,10 @@
                               "solucao": "\\frac{\\sin(x)^2}{2} + k, k pertencente aos Reais.",
                               "postextual": "sucesso",
                               "resposta": []
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
+                            }]
+                        }]
+                    }]
+                }]
             },
             {
               "id_passo": 2,
@@ -59,7 +55,7 @@
                 {
                   "id_passo": 3,
                   "pretextual": "e observe que",
-                  "solucao": "du = -\\sin(x) dx",
+                  "solucao": "du = -\\sin(x) \,dx",
                   "postextual": "",
                   "resposta": [
                     {
@@ -80,14 +76,10 @@
                               "solucao": "\\frac{-\\cos(x)^2}{2} + k, k pertencente aos Reais.",
                               "postextual": "sucesso",
                               "resposta": []
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
+                            }]
+                        }]
+                    }]
+                }]
             },
             {
               "id_passo": 2,
@@ -95,16 +87,14 @@
               "solucao": "alternativa errada",
               "postextual": "fracasso",
               "resposta": []
-            }
-          ]
-        }
-      ]
+            }]
+        }]
     },
     {
       "id_question": 2,
       "nivel": "Facil",
       "pretextual": "Escolha uma alternativa para a integral:",
-      "problema": "\\int x \\sin(x^2) dx",
+      "problema": "\\int x \\sin(x^2) \,dx",
       "resposta": [
         {
           "id_passo": 1,
@@ -129,12 +119,9 @@
                       "solucao": "\\int sen u du",
                       "postextual": "",
                       "resposta": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
+                    }]
+                }]
+            }]
         },
         {
           "id_passo": 2,
@@ -142,14 +129,13 @@
           "solucao": "u = \\tan(x)",
           "postextual": "",
           "resposta": []
-        }
-      ]
+        }]
     },
     {
       "id_question": 3,
       "nivel": "Facil",
       "pretextual": "Escolha uma alternativa para a integral:",
-      "problema": "\\int \\frac{x}{x^2+1} dx",
+      "problema": "\\int \\frac{x}{x^2+1} \,dx",
       "resposta": [
         {
           "id_passo": 1,
@@ -176,16 +162,13 @@
                       "resposta": [
                         {
                           "id_passo": 5,
-                          "pretextual": "Então, temos",
+                          "pretextual": "Então,",
                           "solucao": "\\ln (x^2 + 1)",
                           "postextual": "sucesso",
                           "resposta": []
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
+                        }]
+                    }]
+                }]
             },
             {
               "id_passo": 2,
@@ -193,10 +176,63 @@
               "solucao": "u = x ",
               "postextual": "fracasso",
               "resposta": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+            }]
+        }]
+    },
+	{
+      "id_question": 4,
+      "nivel": "Facil",
+      "pretextual": "Escolha uma alternativa para a integral:",
+      "problema": "\\int \\frac{1}{x} \\cos(\\ln x) \,dx",
+      "resposta": [
+        {
+          "id_passo": 1,
+          "pretextual": "",
+          "solucao": "por substituição",
+          "resposta": [
+            {
+              "id_passo": 2,
+              "pretextual": "Considere",
+              "solucao": "u = \\frac{1}{x}",
+              "postextual": "",
+              "resposta": [
+                {
+                  "id_passo": 3,
+                  "pretextual": "e observe que",
+                  "solucao": "du = \\ln x dx",
+                  "postextual": "fracasso",
+                  "resposta": []
+                }]
+            },
+            {
+              "id_passo": 2,
+              "pretextual": "Considere",
+              "solucao": "u = \\ln x ",
+              "postextual": "",
+              "resposta": [
+				{
+				  "id_passo": 3,
+                  "pretextual": "e observe que",
+                  "solucao": "du = \\frac{1}{x} dx",
+                  "postextual": "",
+                  "resposta": [
+					{
+					  "id_passo": 4,
+					  "pretextual": "Assim, substituindo na integral, temos",
+					  "solucao": "\\int \\cos u \,du",
+					  "postextual": "",
+					  "resposta": [
+						{
+						  "id_passo": 5,
+						  "pretextual": "e, portanto,",
+						  "solucao": "\\sin(\\ln x) + k",
+						  "postextual": "sucesso",
+						  "resposta": []
+						}]
+					}]
+				}]
+			}]
+		}]
+	}
+	]
 }
