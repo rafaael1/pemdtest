@@ -4,7 +4,7 @@
       "id_question": 1,
       "nivel": "Facil",
       "pretextual": "Escolha uma alternativa para a integral:",
-      "problema": "\\int \\sin(x) \\cos(x)\, dx",
+      "problema": "\\int \\sin(x) \\cos(x)\\, dx",
       "resposta": [
         {
           "id_passo": 1,
@@ -20,7 +20,7 @@
                 {
                   "id_passo": 3,
                   "pretextual": "e observe que",
-                  "solucao": "du = \\cos(x)\, dx",
+                  "solucao": "du = \\cos(x)\\, dx",
                   "postextual": "",
                   "resposta": [
                     {
@@ -55,7 +55,7 @@
                 {
                   "id_passo": 3,
                   "pretextual": "e observe que",
-                  "solucao": "du = -\\sin(x) \,dx",
+                  "solucao": "du = -\\sin(x) \\,dx",
                   "postextual": "",
                   "resposta": [
                     {
@@ -94,7 +94,7 @@
       "id_question": 2,
       "nivel": "Facil",
       "pretextual": "Escolha uma alternativa para a integral:",
-      "problema": "\\int x \\sin(x^2) \,dx",
+      "problema": "\\int x \\sin(x^2) \\,dx",
       "resposta": [
         {
           "id_passo": 1,
@@ -135,7 +135,7 @@
       "id_question": 3,
       "nivel": "Facil",
       "pretextual": "Escolha uma alternativa para a integral:",
-      "problema": "\\int \\frac{x}{x^2+1} \,dx",
+      "problema": "\\int \\frac{x}{x^2+1} \\,dx",
       "resposta": [
         {
           "id_passo": 1,
@@ -183,7 +183,7 @@
       "id_question": 4,
       "nivel": "Facil",
       "pretextual": "Escolha uma alternativa para a integral:",
-      "problema": "\\int \\frac{1}{x} \\cos(\\ln x) \,dx",
+      "problema": "\\int \\frac{1}{x} \\cos(\\ln x) \\,dx",
       "resposta": [
         {
           "id_passo": 1,
@@ -210,29 +210,29 @@
               "solucao": "u = \\ln x ",
               "postextual": "",
               "resposta": [
-				{
-				  "id_passo": 3,
+                {
+                  "id_passo": 3,
                   "pretextual": "e observe que",
                   "solucao": "du = \\frac{1}{x} dx",
                   "postextual": "",
                   "resposta": [
-					{
-					  "id_passo": 4,
-					  "pretextual": "Assim, substituindo na integral, temos",
-					  "solucao": "\\int \\cos u \,du",
-					  "postextual": "",
-					  "resposta": [
-						{
-						  "id_passo": 5,
-						  "pretextual": "e, portanto,",
-						  "solucao": "\\sin(\\ln x) + k",
-						  "postextual": "sucesso",
-						  "resposta": []
-						}]
-					}]
-				}]
-			}]
-		}]
-	}
-	]
+                    {
+                      "id_passo": 4,
+                      "pretextual": "Assim, substituindo na integral, temos",
+                      "solucao": "\\int \\cos u \\,du",
+                      "postextual": "",
+                      "resposta": [
+                        {
+                          "id_passo": 5,
+                          "pretextual": "e, portanto,",
+                          "solucao": "\\sin(\\ln x) + k",
+                          "postextual": "sucesso",
+                          "resposta": []
+                        }]
+                    }]
+                }]
+            }]
+        }]
+    }
+    ]
 }
