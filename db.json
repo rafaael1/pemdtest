@@ -233,6 +233,198 @@
                 }]
             }]
         }]
+    },
+	{
+      "id_question": 5,
+      "nivel": "Facil",
+      "pretextual": "Escolha uma alternativa para a integral:",
+      "problema": "\\int \\frac{\\sin(x)}{\\cos^{2}(x)} \\,dx",
+      "resposta": [
+        {
+          "id_passo": 1,
+          "pretextual": "",
+          "solucao": "por substituição",
+          "resposta": [
+            {
+              "id_passo": 2,
+              "pretextual": "Considere",
+              "solucao": "u = \\cos(x)",
+              "postextual": "",
+              "resposta": [
+                {
+                  "id_passo": 3,
+                  "pretextual": "e observe que",
+                  "solucao": "du = -\\sin(x) dx",
+                  "postextual": "",
+                  "resposta": [
+                    {
+                      "id_passo": 4,
+                      "pretextual": "Assim, substituindo na integral",
+                      "solucao": "\\int -\\frac{du}{u} ",
+                      "postextual": "",
+                      "resposta": [
+                        {
+                          "id_passo": 5,
+                          "pretextual": "Então,",
+                          "solucao": "\\ln (\\cos(x)) + k",
+                          "postextual": "sucesso",
+                          "resposta": []
+                        }]
+                    }]
+                }]
+            },
+            {
+              "id_passo": 2,
+              "pretextual": "Considere",
+              "solucao": "u = \\sin(x) ",
+              "postextual": "fracasso",
+              "resposta": []
+            }]
+        }]
+    },
+	{
+      "id_question": 6,
+      "nivel": "Facil",
+      "pretextual": "Escolha uma alternativa para a integral:",
+      "problema": "\\int e^{x} \\sqrt{1+e^{x}}  \\,dx",
+      "resposta": [
+        {
+          "id_passo": 1,
+          "pretextual": "",
+          "solucao": "por substituição",
+          "resposta": [
+            {
+              "id_passo": 2,
+              "pretextual": "Fazendo,",
+              "solucao": "u = 1 + e^{x}",
+              "postextual": "",
+              "resposta": [
+                {
+                  "id_passo": 3,
+                  "pretextual": "tem-se",
+                  "solucao": "du = e^{x} dx",
+                  "postextual": "",
+                  "resposta": [
+                    {
+                      "id_passo": 4,
+                      "pretextual": "Assim, substituindo na integral",
+                      "solucao": "\\int \\sqrt{u} \\, du",
+                      "postextual": "",
+                      "resposta": [
+                        {
+                          "id_passo": 5,
+                          "pretextual": "Então,",
+                          "solucao": "\\frac{2}{3} \\sqrt{(1 + e^{x})^{3}} + k",
+                          "postextual": "sucesso",
+                          "resposta": []
+                        }]
+                    }]
+                }]
+            },
+            {
+              "id_passo": 2,
+              "pretextual": "Considere",
+              "solucao": "u = e^{x}",
+              "postextual": "fracasso",
+              "resposta": []
+            }]
+        }]
+    },
+	{
+      "id_question": 7,
+      "nivel": "Facil",
+      "pretextual": "Escolha uma alternativa para a integral:",
+      "problema": "\\int \\cos^{3}(x) \\sin(x) \\,dx",
+      "resposta": [
+        {
+          "id_passo": 1,
+          "pretextual": "",
+          "solucao": "por substituição",
+          "resposta": [
+            {
+              "id_passo": 2,
+              "pretextual": "Fazendo,",
+              "solucao": "u = \\cos(x)",
+              "postextual": "",
+              "resposta": [
+                {
+                  "id_passo": 3,
+                  "pretextual": "tem-se",
+                  "solucao": "du = -\\sin(x) dx",
+                  "postextual": "",
+                  "resposta": [
+                    {
+                      "id_passo": 4,
+                      "pretextual": "Assim, substituindo na integral",
+                      "solucao": "\\int -u^{3} \\, du",
+                      "postextual": "",
+                      "resposta": [
+                        {
+                          "id_passo": 5,
+                          "pretextual": "Então,",
+                          "solucao": "-\\frac{\\cos^{4}}{4} + k",
+                          "postextual": "sucesso",
+                          "resposta": []
+                        }]
+                    }]
+                }]
+            },
+            {
+              "id_passo": 2,
+              "pretextual": "Considere",
+              "solucao": "u = \\sin(x)",
+              "postextual": "fracasso",
+              "resposta": []
+            }]
+        }]
+    },
+	{
+      "id_question": 8,
+      "nivel": "Facil",
+      "pretextual": "Escolha uma alternativa para a integral:",
+      "problema": "\\int x \\sqrt{4x^{2} + 15}  \\,dx",
+      "resposta": [
+        {
+          "id_passo": 1,
+          "pretextual": "",
+          "solucao": "por substituição",
+          "resposta": [
+            {
+              "id_passo": 2,
+              "pretextual": "Fazendo,",
+              "solucao": "u = 4x^{2} + 15",
+              "postextual": "",
+              "resposta": [
+                {
+                  "id_passo": 3,
+                  "pretextual": "tem-se",
+                  "solucao": "du = 8x dx",
+                  "postextual": "",
+                  "resposta": [
+                    {
+                      "id_passo": 4,
+                      "pretextual": "Assim, substituindo na integral",
+                      "solucao": "\\int \\frac{\\sqrt{u}}{8} \\, du",
+                      "postextual": "",
+                      "resposta": [
+                        {
+                          "id_passo": 5,
+                          "pretextual": "Então,",
+                          "solucao": "\\frac{1}{12} \\sqrt{(4x^{2} + 15)^{3}} + k",
+                          "postextual": "sucesso",
+                          "resposta": []
+                        }]
+                    }]
+                }]
+            },
+            {
+              "id_passo": 2,
+              "pretextual": "Considere",
+              "solucao": "u = x",
+              "postextual": "fracasso",
+              "resposta": []
+            }]
+        }]
     }
     ]
 }
